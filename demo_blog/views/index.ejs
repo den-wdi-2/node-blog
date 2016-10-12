@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-serialize-object/2.5.0/jquery.serialize-object.min.js" charset="utf-8"></script>
+    <script src="/apiResource.js" charset="utf-8"></script>
+    <script src="/scripts.js" charset="utf-8"></script>
+    <title>DOG BLOG</title>
+  </head>
+  <body>
+    <div class = 'container'>
+      <h1><%= title %></h1>
+      <img src="/images/dogblog.png" alt="" />
+
+
+    <form id="make-post">
+      <div class="row">
+        <div class="top five columns">
+          <input class="u-full-width" type="text" name="post[title]" value="" placeholder="Title">
+        </div>
+        <div class="top five columns">
+          <input class="u-full-width" type="text" name="post[author]" value="" placeholder="Author">
+        </div>
+      </div>
+      <div class='row'>
+        <div class="twelve columns">
+          <textarea name="post[content]" placeholder="write stuff here" rows="10" cols="120"></textarea>
+        </div>
+      </div>
+      <div class = 'row'>
+          <button id="submit" type="submit" class="button-primary" name="button">LET'S SEE IT!</button>
+      </div>
+
+    </form>
+
+
+    <div class="blog-posts">
+
+      <div class="post-template">
+        <a href="#" class="toss-post">OOPS.</a>
+        <h5><span class="title"></span></h5>
+        <h5>By:  <span class="author"></span></h5>
+        <div class="content">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>

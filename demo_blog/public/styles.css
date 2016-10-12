@@ -1,0 +1,48 @@
+body{
+  background-image: url('/images/retina_wood.png');
+  text-align: center;
+  font-family: futura;
+  color: cornflowerblue;
+  padding-top: 6%;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.toss-post{
+  z-index: 1;
+  position: relative;
+  margin-left: 80%;
+}
+
+img{
+  border-radius: 10px;
+  margin: 2%;
+}
+
+#submit{
+  background-color: cornflowerblue;
+  border: 1px solid white;
+}
+
+.u-full-width{
+  margin-left: 22%;
+}
+
+.post-template {
+  display: none;
+}
+
+.title{
+  font-size: 2em;
+}
+
+
+.post {
+  background-image: url('/images/linedpaper.png');
+  margin: 5% 20%;
+  width: 60%;
+  border: 1px solid cornflowerblue;
+  padding: 2% 1%;
+}
